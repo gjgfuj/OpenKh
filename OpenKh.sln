@@ -158,7 +158,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenKh.WinShell.IMZUtilitie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenKh.Command.PmoConverter", "OpenKh.Command.PmoConverter\OpenKh.Command.PmoConverter.csproj", "{18FFB18D-B254-4F93-821F-2BBAE6389BB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenKh.Command.PmpConverter", "OpenKh.Command.PmpConverter\OpenKh.Command.PmpConverter.csproj", "{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenKh.Command.PmpConverter", "OpenKh.Command.PmpConverter\OpenKh.Command.PmpConverter.csproj", "{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenKh.Command.PAMtoFBXConverter", "OpenKh.Command.PAMtoFBXConverter\OpenKh.Command.PAMtoFBXConverter.csproj", "{A9695331-C335-4C62-B5B3-7FB3ED512EA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1019,6 +1021,22 @@ Global
 		{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C}.Release|x64.Build.0 = Release|Any CPU
 		{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C}.Release|x86.Build.0 = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|ARM.Build.0 = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|x64.Build.0 = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1082,6 +1100,7 @@ Global
 		{D0B22AFA-0E6F-46E4-9949-62DED6B65084} = {C9B53164-6989-479B-81BE-0D00822B8B46}
 		{18FFB18D-B254-4F93-821F-2BBAE6389BB2} = {9C52D787-9819-4B89-989B-EEA6FEB20731}
 		{4D954FE4-0B5A-4699-A1A8-A2D02BE05B9C} = {9C52D787-9819-4B89-989B-EEA6FEB20731}
+		{A9695331-C335-4C62-B5B3-7FB3ED512EA3} = {9C52D787-9819-4B89-989B-EEA6FEB20731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DF3960B-4FE5-4E56-92D4-2FC0A912E823}
