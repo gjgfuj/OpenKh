@@ -76,6 +76,7 @@ namespace OpenKh.Game.Entities
             Textures = texture.LoadTextures(graphics).ToArray();*/
 
             (Model, Textures) = BBSMeshLoader(graphics, "models/p03ex00.pmo", Model, Textures);
+            
 
             try
             {
